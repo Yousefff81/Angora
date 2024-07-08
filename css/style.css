@@ -1,0 +1,309 @@
+
+h3{
+    color:tomato ;
+}
+#btn-arrow{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 999999999999999999999999;
+}
+#sideBar{
+  
+    position: fixed;
+    left: 0px;
+    top: 150px;
+    
+}
+#colorBox{
+    background-color: rgba(128, 128, 128, 0.432);
+    float: left;
+    display: none;
+   
+
+}
+.colorItem{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    display: inline-block;
+    cursor: pointer
+}
+#colorIcon{
+
+    float: left;
+    cursor: pointer;
+}
+.parg{
+    width: 50%;
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+   
+    
+    bottom: 550px;
+    left: 25%;
+    text-align: center;
+    color: white;
+}
+
+#timeUP{
+   
+    position: fixed;
+    top: 230px;
+    left: 0px;
+    cursor: pointer;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+.timeDiv{
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+ 
+   
+ 
+}
+
+#main-nav{
+
+    
+    background-color: transparent;
+}
+.nav-link{
+    color: white;
+    font-size: 14px;
+}
+.nav-link:hover  {
+    color: red;
+    transition: all 0.2s;
+}
+.icon i{
+    color: white;
+}
+i:hover   {
+    color: red;
+    transition: all 0.2s;
+}
+.tittle{
+    
+    position: relative;
+
+    width: 100% ;
+}
+.pb{
+ 
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    color: rgba(128, 128, 128, 0.342);
+    
+}
+.pp{
+    
+    text-align: center;
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+   left: 590px;
+   top: 45px;
+  
+}
+.paragraph-about{
+    width: 60%;
+   
+    text-align: center;
+    margin: auto;
+    color: rgba(128, 128, 128, 0.74);
+    font-size: 18px;
+}
+
+.shadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.479);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.abou-details:hover .shadow{
+    opacity: 1;
+    transition: all 0.2s;
+   
+
+}
+.abou-details:hover img{
+    transform: scale(1.1,1.1);
+    transition: all 0.2s;
+}
+h6:hover {
+
+    color: red;
+    transition: all 0.2s;
+}
+.project-shadow{
+width: 100%;
+height: 100%;
+    background-color: rgba(255, 255, 255, 0.911);
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.project-shadow:hover{
+    opacity: 1;
+    transition: all 0.3s;
+}
+.project-shadow .yousef{
+
+    position: absolute;
+    top: 150px;
+    font-weight: bold;
+}
+
+.project-shadow .yousef2{
+
+    position: absolute;
+    bottom: 110px;
+}
+
+.project-shadow:hover .yousef{
+    position: absolute;
+    top: 160px;
+
+    transition: all 0.5s;
+}
+.project-shadow:hover .yousef2{
+    position: absolute;
+    bottom: 120px;
+
+    transition: all 0.5s;
+}
+
+.btn3{
+    width: 140px;
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0.836);
+    color: white;
+}
+
+.ico{
+    position: relative;
+    top: 46px;
+    right:  35px;
+}
+.service-details:hover h5 {
+
+    color: red;
+    transition: all 0.2s;
+}
+
+.client-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+transform: translateY(50%);
+}
+.client-feed{
+    border: 2px solid #f4f4f4;
+}
+.carousel-indicators [data-bs-target]{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-indent: 0%;
+}
+
+.blog-details2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.329);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.blog-p{
+background-color: red;
+color: #fff;
+    width: 120px;
+    height: 30px;
+   text-align: center;
+  font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 25px;
+ 
+}
+
+.blog-details2:hover  {
+    opacity: 1;
+    transition: all 0.2s;
+}
+.blog-details:hover img{
+
+    transform: scale(1.1,1.1);
+    transition: all 0.2s;
+
+}
+#blogs{
+    background-color: rgba(128, 128, 128, 0.11);
+}
+.blog-des{
+    background-color: #fff;
+}
+
+.blog2-details1{
+    background-color: rgba(128, 128, 128, 0.575);
+}
+
+.blog-parag{
+    font-size: 80px;
+    font-weight: bold;
+}
+.icon3{
+
+    position: absolute;
+    left: 32%;
+    top: 36%;
+    font-size: 8px;
+
+}
+.blog-line {
+
+    width: 88%;
+    height: 1px;
+    background-color: gray;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: 78%;
+}
+
+.login{
+    background-image: url(../images/post-2.jpg);
+   background-size: 100% 100%;
+    
+}
+.you{
+    background-image: url(../images/post-2.jpg);
+   background-size: 100% 100%;
+    
+}
